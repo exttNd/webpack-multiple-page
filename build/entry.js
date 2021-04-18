@@ -9,11 +9,11 @@ module.exports = {
 			entry: "index/index.js", //模块入口文件
 			filename: "index.html", //页面输出地址
 		},
-		"login": {
+		/*"login": {
 			title: "登录",
 			template: "login/index.html",
 			entry: "login/index.js",
 			filename: "login.html"
-		}
+		}*/
 	}
 }
