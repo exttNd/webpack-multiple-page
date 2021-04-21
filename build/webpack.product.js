@@ -32,7 +32,7 @@ let webpackConfig = merge(baseWebpackConfig, {
 		//压缩css
 		new OptimizeCSSPlugin(),
 		//将node_modules中的文件抽离成公共的文件
-		new webpack.optimize.CommonsChunkPlugin({
+            new webpack.optimize.CommonsChunkPlugin({
 			name: 'vendor',
 			minChunks: function(module, count) {
 				// any required modules inside node_modules are extracted to vendor

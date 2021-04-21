@@ -1,7 +1,6 @@
 let utils = require('./utils'),
 	ExtractTextPlugin = require('extract-text-webpack-plugin'),
 	isProduction = utils.isProduction(); //判断是开发环境还是生产环境
-isProduction = true;
 
 /**
  * vue css加载器
